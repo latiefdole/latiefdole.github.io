@@ -83,8 +83,7 @@
                                 <label class="form-label" for="produk">Produk <span class="req" aria-hidden="true">*</span></label>
                                 <select class="form-select" id="produk" name="produk" required>
                                     <option value="" selected disabled>Pilih produk</option>
-                                    <option value="Pashmina Basic — Taupe">Pashmina Basic — Taupe</option>
-                                    <option value="Pashmina Basic — warna lain">Pashmina Basic — warna lain</option>
+                                    <option value="Pashmina Basic">Pashmina Basic</option>
                                     <option value="Daily Bergo">Daily Bergo</option>
                                     <option value="Scrunchie Ceruty">Scrunchie Ceruty</option>
                                     <option value="Lainnya / tanya dulu">Lainnya / tanya dulu</option>
@@ -93,8 +92,9 @@
                             </div>
                             <div class="col-md-6">
                                 <label class="form-label" for="warna">Warna</label>
-                                <input class="form-control" id="warna" name="warna" type="text" placeholder="Contoh: Taupe" autocomplete="off">
-                                <div class="form-text">Kosongkan kalau mau tanya warna yang tersedia.</div>
+                                <input class="form-control" id="warna" name="warna" type="text" placeholder="Contoh: Taupe, Navy" autocomplete="off" list="daftar-warna">
+                                <datalist id="daftar-warna"><option value="Rosybrown"><option value="Rose"><option value="Tawny"><option value="Candy"><option value="Nude"><option value="Rosegold"><option value="Mauve"><option value="Babypink"><option value="Sunkist"><option value="Linen"><option value="Taro"><option value="Punch"><option value="Burgundy"><option value="Maroon"><option value="Terracota"><option value="Rosewood"><option value="Milo"><option value="Mocca"><option value="Darkmilo"><option value="Bronze"><option value="Taupe"><option value="Khaki"><option value="Gold"><option value="Pumpkin"><option value="Mustard"><option value="Brokenwhite"><option value="Creamy"><option value="Minty"><option value="Tosca"><option value="Emerald"><option value="Darkgreen"><option value="Matcha"><option value="Avocado"><option value="Lime"><option value="Army"><option value="Zaitun"><option value="Navy"><option value="Denim"><option value="Jeans"><option value="Cloude"><option value="Silver"><option value="Flint"><option value="Gray"><option value="Blueash"><option value="Smoke"><option value="Black"><option value="Darkgray"></datalist>
+                                <div class="form-text">Boleh campur warna, pisahkan dengan koma. Kosongkan kalau mau tanya dulu.</div>
                             </div>
                             <div class="col-md-4">
                                 <label class="form-label" for="jumlah">Jumlah <span class="req" aria-hidden="true">*</span></label>

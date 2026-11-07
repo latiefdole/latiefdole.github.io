@@ -447,6 +447,14 @@ img { max-width: 100%; height: auto; }
 .product-card .stretched-link::after { z-index: 1; }
 
 /* --------------------------------------------------------------------------
+   Color chips
+   -------------------------------------------------------------------------- */
+.color-group { margin-top: .9rem; }
+.color-group h3 { font-family: var(--font-body); font-size: .78rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin-bottom: .45rem; }
+.color-chips { display: flex; flex-wrap: wrap; gap: .4rem; padding: 0; margin: 0; list-style: none; }
+.color-chips li { padding: .3rem .7rem; font-size: .85rem; font-weight: 500; color: var(--ink-2); background: var(--sand); border: 1px solid var(--line); border-radius: 999px; }
+
+/* --------------------------------------------------------------------------
    Feature / value items
    -------------------------------------------------------------------------- */
 .feature-item { height: 100%; padding: 1.75rem 1.5rem; background: var(--white); border: 1px solid var(--line); border-radius: var(--radius-lg); transition: border-color var(--dur) var(--ease), transform var(--dur) var(--ease); }
